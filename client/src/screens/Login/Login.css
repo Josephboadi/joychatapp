@@ -1,0 +1,53 @@
+.login__container {
+  background-image: url(https://cdn.pixabay.com/photo/2021/03/30/08/06/easter-eggs-6136257_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #000;
+  overflow-x: hidden;
+}
+.login__innerContainer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  /* background: black;
+  background-color: black; */
+}
+
+.login__button {
+  background-color: white;
+  border: 2px solid #1f1f1f;
+  border-radius: 0.6em;
+  color: #1c3c5b;
+  font-size: 1rem;
+
+  padding: 1.2em 2.5em;
+  cursor: grab;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+.login__button:hover {
+  color: #ffffff;
+  outline: 0;
+}
+
+.lco {
+  transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.lco:hover {
+  box-shadow: 0 0 40px 40px #1f1f1f inset;
+}
